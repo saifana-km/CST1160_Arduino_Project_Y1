@@ -4,7 +4,7 @@
 Saifana Kuradiela Maryam | M01088086, 
 Khalisah Kazi | M01033590
 
-# Arduino Project for CST1160: 
+## Arduino Project for CST1160: 
 The automatic plant feeder, utilising these input and output modules:
 - Soil Moisture Sensor
 - Water Level Sensor
