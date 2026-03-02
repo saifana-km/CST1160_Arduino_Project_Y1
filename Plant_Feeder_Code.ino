@@ -62,11 +62,9 @@ void loop() {
   if (soilDry && !tankLow) {
       pumpOn = true;  
   }
-
   if (soilWet) {
       pumpOn = false; 
   }
-
   if (tankLow) {
       pumpOn = false;
   }
