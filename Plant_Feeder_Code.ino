@@ -1,3 +1,5 @@
+// CST1160 Arduino Project Year 1
+// Programming Team: Saifana Kuradiela Maryam | M01088086, Khalisah Kazi | M01033590
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
@@ -17,8 +19,8 @@ int prevPumpState = -1;
 int prevWaterPercent = -1;
 
 // Water thresholds
-const int DRY_ON_THRESHOLD  = 550;  // pump turns ON above this
-const int WET_OFF_THRESHOLD = 420;  // pump turns OFF below this
+const int DRY_ON_THRESHOLD  = 550; 
+const int WET_OFF_THRESHOLD = 420;
 
 // Pump state memory
 bool pumpOn = false;
